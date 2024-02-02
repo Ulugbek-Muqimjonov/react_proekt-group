@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    padding-top: 37px;
+    background-color: #363740;
+    height:calc(100vh - 37px);
+}
+.navbar__wrap {
+    width: 100%;
+}
+.navbar__list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+    padding-top:60px;
+    list-style: none;
+    width: 100%;
+}
+.navbar__item {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    padding: 22px 0;
+}
+.navbar__item::before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("../../assets/icon1.png");
+    content: "";
+}
+.navbar__item:nth-child(2):before {
+    background-image: url("../../assets/icon2.png");
+}
+.navbar__item:nth-child(3):before {
+    background-image: url("../../assets/icon3.png");
+}
+.navbar__item:nth-child(4):before {
+    background-image: url("../../assets/icon4.png");
+}
+.navbar__item:nth-child(5):before {
+    background-image: url("../../assets/icon5.png");
+}
+.navbar__item:nth-child(6):before {
+    background-image: url("../../assets/icon63.png");
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: #a4a6b3;
+
+}
+.navbar__list--2 {
+    padding-top: 13px;
+}
+.navbar__item--2:nth-child(1):before {
+    background-image: url("../../assets/icon7.png");
+}
+.navbar__item--2:nth-child(2):before {
+    background-image: url("../../assets/icon8.png");
+}
+.line {
+    opacity: 0.5;
+}

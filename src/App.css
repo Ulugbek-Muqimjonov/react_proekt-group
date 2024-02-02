@@ -1,0 +1,10 @@
+.app {
+    display: grid;
+    grid-template-columns: 255px 1fr;
+}
+img {
+    display: inline-block;
+}
+a {
+    display: inline-block;
+}
