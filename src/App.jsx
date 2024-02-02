@@ -1,14 +1,19 @@
-import React from 'react'
-import Navbar from './components/navbar/NAvbar'
-import Body from './components/body/Body'
-import './App.css'
+import Navbar from "./components/navbar/NAvbar";
+import Body from "./components/body/Body";
+import "./App.css";
 
 function App() {
   return (
-    <div className='app'>
-      <Navbar/>
-      <Body/>
+    <div className="app">
+      <Navbar />
+      <Body />
     </div>
+<<<<<<< HEAD
+  );
+}
+
+export default App;
+=======
   )
 import React from "react";
 
@@ -18,3 +23,4 @@ function App() {
 
 export default App;
   
+>>>>>>> b7b8572b4bb804ccfedc087061770bd00a2a7613

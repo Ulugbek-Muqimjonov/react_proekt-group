@@ -1,0 +1,44 @@
+.hero__tends-inner1 {
+    padding: 34px;
+}
+.hero__trends-inner1-title {
+    margin: 0;
+    font-size: 20px
+}
+.hero__trends-inner1-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__trends-date {
+    color: #9fa2b4;
+    font-size: 12px;
+}
+.hero__tends-dayList {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    font-size: 12px;
+    color: #9fa2b4;
+}
+.hero__trends__dayItem {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.hero__trends__dayItem::before {
+    display: inline-block;
+    width: 16px;
+    height: 2px;
+    background-image: url("../../assets/today.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    content: "";
+}
+.hero__trends__dayItem:last-child:before {
+    background-image: url("../../assets/yestaday.png");
+}

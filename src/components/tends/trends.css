@@ -1,0 +1,6 @@
+.hero__trneds-wrap {
+    display: grid;
+    grid-template-columns: 720px 1fr;
+    background-color: #fff;
+    border-radius: 8px;
+}

@@ -2,7 +2,8 @@
     display: flex;
     padding-top: 37px;
     background-color: #363740;
-    height:calc(100vh - 37px);
+    width: 255px;
+    height:auto;
 }
 .navbar__wrap {
     width: 100%;
