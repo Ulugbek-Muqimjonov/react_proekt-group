@@ -1,0 +1,10 @@
+.hero__cardList {
+    display: grid;
+    grid-template-columns: repeat(4,285px);
+    grid-template-rows: 134px;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 30px;
+    list-style: none;
+}

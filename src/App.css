@@ -1,10 +1,12 @@
 .app {
-    display: grid;
-    grid-template-columns: 255px 1fr;
+    display: flex;
 }
 img {
     display: inline-block;
 }
 a {
     display: inline-block;
+}
+.site-body {
+    flex-grow: 1;
 }
