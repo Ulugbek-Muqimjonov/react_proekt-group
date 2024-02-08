@@ -3,4 +3,6 @@
     grid-template-columns: 720px 1fr;
     background-color: #fff;
     border-radius: 8px;
+    border: 2px solid  darkgray;
+    margin-bottom: 30px;
 }

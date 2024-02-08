@@ -1,5 +1,17 @@
+.hero-trends__wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1112px;
+}
+.hero__trends-inner1{
+    width: 760px;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 20px;
+}
 .hero__tends-inner1 {
     padding: 34px;
+    padding-bottom: 0;
+    width: 780px;
 }
 .hero__trends-inner1-title {
     margin: 0;
@@ -42,3 +54,38 @@
 .hero__trends__dayItem:last-child:before {
     background-image: url("../../assets/yestaday.png");
 }
+
+
+.trends-list{
+    width: 342px;
+    margin: 0;
+    padding-left: 0;
+   
+    list-style: none;
+    text-align: center;
+    border-left : 2px solid #9FA2B4;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.trends-item:last-child{
+    border-bottom: none;
+}
+.trends-item{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 23px 20px;
+    color: #9FA2B4;
+    border-bottom: 2px solid #9FA2B4;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+  
+}
+.trends-big{
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
